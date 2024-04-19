@@ -1,0 +1,42 @@
+/*стили для footer*/
+.footer {
+
+
+  .footer__tor {
+    margin-bottom: 74px;
+
+
+    @media screen and (max-width: 991px) {
+      row-gap: 24px;
+      align-items: center;
+    }
+
+    .footer__links {
+      text-align: center;
+       padding: 0px;
+      @media screen and (max-width: 767px) {
+        padding: 30px;
+      }
+
+
+
+
+      .footer__links-item-link {
+        font-size: 24px;
+        color: #0C2836;
+      }
+    }
+
+    .footer__info {
+      text-align: right;
+    }
+  }
+
+
+  .footer__copyright {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+}

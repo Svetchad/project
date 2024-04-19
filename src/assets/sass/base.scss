@@ -1,0 +1,48 @@
+/*сброс стилей*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body, p, h1, h2, h3, h4, h5, ul {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*настройка стилей*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0C2836;
+
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: 800;
+  margin-bottom: 28px;
+  @media screen and (max-width: 768px) {
+    font-size: 36px;
+  }
+  @media screen and (max-width: 576px) {
+      font-size: 32px;}
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 40px;
+  @media screen and (max-width: 768px) {
+    font-size: 32px;
+    margin-bottom: 26px;
+  }
+}
+
